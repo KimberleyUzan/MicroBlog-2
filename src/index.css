@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #15202B !important;
+}
+
+.mycontainer {
+    padding: 0px 40px;
+    display: flex;
+}
+
+.tweet-form{
+    background-color: #15202B;
+    border: 2px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 0.5rem;
+    margin-top: 1rem;
+
+}
+
+textarea-tweet {
+    color: #CCCCCC; 
+}
+
+.tweet-button{
+    margin-top: 10px;
+}
+
+
+.tweet-profile-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-miniature {
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.log-input {
+    margin: 10px;
+}
+
+.log-profile {
+    font-size: 20px;
+}
+
+.modal-content {
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+.modal-dialog {
+    margin: 40vh auto !important;
+}
+
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700 !important;
+}
+
+.modalContainer button {
+    margin-top: 17px;
+    background-color: #1c1c1c !important;
+    color: white;
+    border: none;
+    padding: 5px 30px;
+}
+
+.modalContainer button:focus {
+    box-shadow: none;
+}
+
+.homepage-content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.homepage-content h3 {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:480px) {
+    .max-chars {
+        left: 0px;
+        bottom: -60px !important;
+    }
+    
+    .tweet-form textarea {
+        padding-bottom: 50px;
+    }
+
+    .all-tweets-area {
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width:580px) {
+    .modal-content{
+        width: 70% !important;
+    }
+}
